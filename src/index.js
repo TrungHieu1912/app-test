@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
 import './index.css';
-import Login from './pages/auth/Login';
+// import Login from './pages/auth/Login';
+import RouterDefault from './pages/Route';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Login ></Login>,
+    <RouterDefault ></RouterDefault>
   </React.StrictMode>,
   document.getElementById('root')
 );

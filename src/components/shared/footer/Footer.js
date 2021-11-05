@@ -1,6 +1,6 @@
 import React from 'react';
 
-function AppRoute(props) {
+function FooterComponent(props) {
     return (
         <div>
 
@@ -8,4 +8,4 @@ function AppRoute(props) {
     );
 }
 
-export default AppRoute;
+export default FooterComponent;
